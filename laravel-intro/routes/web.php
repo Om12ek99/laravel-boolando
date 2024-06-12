@@ -13,17 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-$arrayDiscount = [];
-
 Route::get('/', function () {
-    $arrayProducts = config("products.products");
-    return view('home', compact('arrayProducts'));
-})->name('home');
-
-Route::get('donna', function () {
-    return view('donna');
-})->name('donna');
-
-Route::get('uomo', function () {
-    return view('uomo');
-})->name('uomo');
+    return view('welcome');
+});

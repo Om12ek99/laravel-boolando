@@ -1,0 +1,14 @@
+@use "./partials/header";
+@use "./partials/footer";
+@use "./partials/home";
+@use "./partials/card";
+@import "~bootstrap";
+@import "~fontawesome";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
